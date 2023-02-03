@@ -1,11 +1,14 @@
 Summary
 -------
-based on [drawio-desktop](https://github.com/jgraph/drawio-desktop)，link to the [issue](https://github.com/jgraph/drawio/issues/213).
+based on [drawio-desktop](https://github.com/jgraph/drawio-desktop)，link to this [issue](https://github.com/jgraph/drawio/issues/213).
+
 this project adds the Animation for presentation sliders which is more useful in presentation.
-just like this
 
+just like this：
 
+![录制_2023_02_03_14_22_05_58](https://user-images.githubusercontent.com/38103330/216527515-17ac41b3-0a8d-40c4-be16-6d5b08db3d89.gif)
 
+you can experience this function in [web](http://43.138.251.145:2335/drawio-desktop/drawio/src/main/webapp/index.html?dev=1&sync=manual) or download [win](http://43.138.251.145:2335/drawio-desktop/dist/win-unpacked/draw.io.exe).
 
 Developing
 ----------
