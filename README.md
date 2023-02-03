@@ -6,6 +6,8 @@ this project adds the Animation for presentation sliders which is more useful in
 
 just like this：
 
+show/hide the ppt sideBar by type `alt + q`
+
 ![录制_2023_02_03_14_22_05_58](https://user-images.githubusercontent.com/38103330/216527515-17ac41b3-0a8d-40c4-be16-6d5b08db3d89.gif)
 
 you can experience this function in [web](http://43.138.251.145:2335/drawio-desktop/drawio/src/main/webapp/index.html?dev=1&sync=manual) or download [win](http://43.138.251.145:2335/drawio-desktop/dist/win-unpacked/draw.io.exe).
