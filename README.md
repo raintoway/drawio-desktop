@@ -1,18 +1,11 @@
-About
------ 
+Summary
+-------
+based on [drawio-desktop](https://github.com/jgraph/drawio-desktop)，link to the [issue](https://github.com/jgraph/drawio/issues/213).
+this project adds the Animation for presentation sliders which is more useful in presentation.
+just like this
 
-**drawio-desktop** is a diagramming and whiteboarding desktop app based on [Electron](https://electronjs.org/) that wraps the [core draw.io editor](https://github.com/jgraph/drawio).
 
-Download built binaries from the [releases section](https://github.com/jgraph/drawio-desktop/releases).
 
-**Can I use this app for free?** Yes, under the apache 2.0 license. If you don't change the code and accept it is provided "as-is", you can use it for any purpose.
-
-Security
---------
-
-draw.io Desktop is designed to be completely isolated from the Internet, apart from the update process. This checks github.com at startup for a newer version and downloads it from an AWS S3 bucket owned by Github. All JavaScript files are self-contained, the Content Security Policy forbids running remotely loaded JavaScript.
-
-No diagram data is ever sent externally, nor do we send any analytics about app usage externally. This means certain functionality for which we do not have a JavaScript implementation do not work in the Desktop build, namely .vsd and Gliffy import.
 
 Developing
 ----------
@@ -43,16 +36,6 @@ Local Storage and Session Storage is stored in the AppData folder:
 - macOS: `~/Library/Application Support/draw.io`
 - Windows: `C:\Users\<USER-NAME>\AppData\Roaming\draw.io\`
 
-Open-source, not open-contribution
-----------------------------------
-
-[Similar to SQLite](https://www.sqlite.org/copyright.html), diagrams.net is open
-source but closed to contributions.
-
-The level of complexity of this project means that even simple changes 
-can break a _lot_ of other moving parts. The amount of testing required 
-is far more than it first seems. If we were to receive a PR, we'd have 
-to basically throw it away and write it how we want it to be implemented.
 
 We are grateful for community involvement, bug reports, & feature requests. We do
 not wish to come off as anything but welcoming, however, we've
